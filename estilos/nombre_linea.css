@@ -1,0 +1,57 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: [linea-c-1] 1fr [linea-2-c] 1fr [linea-c-3] 1fr;
+    gap: 3%;
+    grid-template-rows: [linea-r-1] 1fr [linea-r-2] 1fr [linea-r-3];
+    row-gap: 3%;
+    width: 50%;
+    height: 50vh;
+    background-color: gray;
+}
+
+.item {
+    background-color: aqua;
+}
+
+.unir-renglones {
+    grid-row: linea-r-1 / linea-r-3;
+}
+
+.unir-columnas {
+    grid-column: linea-2-c / linea-c-4;
+}
+.container {
+    display: grid;
+    grid-template-columns: [linea-c-1] 1fr [linea-2-c] 1fr [linea-c-3] 1fr [linea-4-c];
+    grid-template-rows: [linea-r-1] 1fr [linea-r-2] 1fr [linea-r-3] 1fr [line-4-c];
+    width: 60%;
+    height: 80vh;
+    gap: 2%;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    
+}
+
+/* .color {
+    background-color: green;
+} */
+
+.color2 {
+    background-color: greenyellow;
+}
+
+/* .color3 {
+    background-color: rgb(243, 247, 252);
+} */
+
+.unir-columnas2 {
+    grid-column: linea-c-1 / linea-c-3;
+    background-color: rgba(255, 255, 0, 0.603);
+}
+
+.unir-renglones1 {
+    grid-row: linea-r-1 / linea-r-4;
+    grid-column: linea-c-3 / linea-c-4;
+    background-color: green;
+}
