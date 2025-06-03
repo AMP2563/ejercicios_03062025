@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 10px;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "col1   col2   col3"
+    "col1   col2   col3"
+    "col1   col2   col3"
+    "pie1   pie1   pie2";
+}
+
+.titulo {
+     grid-area: titulo; background: #ddd; padding: 10px;
+}
+
+.col1 { 
+    grid-area: col1; background: #eef; padding: 10px;}
+.col2 { 
+    grid-area: col2; background: #efe; padding: 10px;}
+.col3 { 
+    grid-area: col3; background: #fee; padding: 10px;}
+
+.footer {
+  display: contents; /* truco para dejar que los hijos ocupen el grid */
+}
+
+.pie1 
+    { 
+    grid-area: pie1; background: #ccc; padding: 10px;
+}
+.pie2
+     { 
+    grid-area: pie2; background: #bbb; padding: 10px;
+}
