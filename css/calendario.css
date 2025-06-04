@@ -21,6 +21,7 @@ h1 {
     max-width: 600px;
     margin: 0 25% 0 25%;
     background-color: azure;
+    /* grid-auto-flow: column dense; */
 }
 
 .dia, nom-dia {
@@ -38,3 +39,14 @@ h1 {
 .blanco {
     background-color: whitesmoke;
 }
+
+/* .dia:nth-child(20) {
+    grid-column: span 3;
+    background-color: blueviolet;
+}
+
+.dia:nth-child(34) {
+    grid-row: span 3;
+    background-color: darkkhaki;
+} */
+
