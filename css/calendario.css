@@ -40,6 +40,9 @@ h1 {
     background-color: whitesmoke;
 }
 
+/* pseudoclase para espandir columnas y cambiar orden,
+ tambien en un calendario se podría poner en rojo los festivos, siempre a los "hijos" */
+
 /* .dia:nth-child(20) {
     grid-column: span 3;
     background-color: blueviolet;
@@ -50,3 +53,6 @@ h1 {
     background-color: darkkhaki;
 } */
 
+/* .dia:nth-child(15) {
+    order: -5
+} */
